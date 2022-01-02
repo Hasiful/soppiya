@@ -1,0 +1,138 @@
+/* ======================
+575px ================= */
+
+@media(min-width: 575px){
+    .footer_center_wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .footer_top {
+        display: flex;
+    }
+
+}
+
+/* ======================
+575px ================= */
+
+/* =============================================================================================================================
+                                                            768
+=============================================================================================================================== */
+
+/* ======================
+767px ================= */
+
+@media(min-width: 767px){
+
+    .bennar_wrapper {
+        flex-direction: row;
+    }
+    .title_header {
+        font-size: 36px;
+    }
+    .title-subtitle {
+        font-size: 15px;
+    }
+    .business_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .where_ever_inner {
+        flex-direction: row;
+    }
+    .where_ever_inner_2{
+        flex-direction: row;
+    }
+    .where_evar_inner_text {
+        width: 48%;
+    }
+    .where_ever_inner_image {
+        width: 48%;
+    }
+    .where_inner_title {
+        font-size: 32px;
+    }
+    .get_help_title {
+        font-size: 36px;
+    }
+    .get_item_header {
+        color: white;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .get_help_image {
+        width: 50%;
+    }
+    .get_help_text {
+        width: 50%;
+    }
+    .get_help_wrapper {
+        flex-direction: row;
+    }
+    .get_help_image img{
+        height: 700px;
+    }
+    .journey_title {
+        font-size: 30px !important;
+    }
+    .footer_bottom_wrapper{
+        flex-direction: row;
+    }
+
+}
+
+/* ======================
+767px ================= */
+
+/* =============================================================================================================================
+                                                            991
+=============================================================================================================================== */
+
+/* ======================
+991px ================= */
+
+@media(min-width: 991px){
+    .header_nav {
+        display: block;
+    }
+    .header_info_link{
+        display: block;
+    }
+    .mobile_nav{
+        display: none;
+    }
+    .bennar_title {
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .business_wrapper {
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 30px;
+    }
+    .get_help_text_wrapper{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer_center_wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 30px;
+    }
+}
+
+/* ======================
+991px ================= */
+
+/* =============================================================================================================================
+                                                            1140
+=============================================================================================================================== */
+
+/* ======================
+1140px ================= */
+
+@media(min-width: 1140px){
+
+}
+
+/* ======================
+1140px ================= */

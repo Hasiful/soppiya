@@ -1,0 +1,356 @@
+/* ============================
+       Header section
+============================= */
+
+.headera_section {
+    padding: 30px 0px;
+}
+.header_content{}
+.header_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header_logo {
+    margin-right: 40px;
+}
+.header_menu {
+    display: flex;
+    align-items: center;
+}
+.header_nav {
+    display: none;
+}
+.header_nav ul{
+    display: flex;
+    align-items: center;
+}
+.header_nav ul li:not(:last-child),
+.header_info_link ul li:not(:last-child) {
+    margin-right: 30px;
+}
+.header_nav ul li a, 
+.header_info ul li a {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+svg.ml8 {
+    margin-left: 10px;
+}
+.header_btn{
+    border: 1px solid;
+    background-color: transparent;
+    font-weight: 500;
+    padding: 7px 25px;
+    border-radius: 5px;
+    transition: all 0.3s linear;
+}
+.header_btn:hover{
+    background-color: var(--primary);
+    color: #fff;
+}
+.header_info {
+  
+}
+.header_info_link{
+    display: none;
+}
+.header_info_link ul{
+    display: flex;
+    align-items: center;
+}
+
+.mobile_nav{}
+.mobile_nav ul li {
+    height: 2px;
+    width: 30px;
+    background-color: var(--primary);
+    margin: 6px 0px;
+}
+/* ============================
+       Header section
+============================= */
+
+/* ============================
+       bannar section
+============================= */
+
+.bennar_section{}
+.bennar_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.bennar_text{}
+.bennar_title {
+    color: var(--sectionbg);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.subtitle {
+    color: var(--sectionbg);
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+.bennar_image{}
+.bennar_image img {
+    width: 100%;
+    display: block;
+}
+
+/* ============================
+       bannar section
+============================= */
+
+
+/* ============================
+       business section
+============================= */
+
+.business_section{
+    background-color: var(--sectionbg);
+}
+.business_content{}
+.business_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+}
+.business_card_item{}
+.business_card_image{}
+.business_card_image img{
+    width: 100%;
+}
+.image_title {
+    color: #708599;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 5px 0px;
+    font-size: 16px;
+}
+.image_sub_title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* ============================
+       business section
+============================= */
+
+
+/* ============================
+       Whereever section
+============================= */
+.where_ever_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+}
+.where_title{
+    color: var(--textcolor);
+}
+.where_subtitle{
+    color: var(--sectionbg) !important;
+}
+.where_inner_title {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--textcolor);
+    margin-bottom: 15px;
+}
+.where_inner_paragraph {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-weight: 400;
+}
+.where_inner_btn {
+    margin-top: 20px;
+    display: block;
+}
+.where_inner_btn a{
+    color: var(--textcolor);
+    font-size: 16px;
+    font-weight: 400;
+    transition: all 0.3s linear;
+}
+.where_inner_btn a:hover{
+    color: var(--primary);
+}
+.where_ever_inner_image img{
+    width: 100%;
+}
+.where_ever_inner_2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0px;
+}
+
+/* ============================
+       Whereever section
+============================= */
+
+
+/* ============================
+       get-help section
+============================= */
+
+.get_help_section{
+    background-color: var(--sectionbg);
+}
+.get_help_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.get_help_image img{
+    width: 100%;
+    object-fit: cover;
+    display: block;
+}
+.get_help_text{
+    padding: 0 40px;
+}
+.get_help_text_wrapper{
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 60px;
+    grid-template-columns: repeat(1, 1fr);
+}
+.get_help_title {
+    margin-bottom: 40px;
+    color: #fff;
+    max-width: 417px;
+    width: 100%;
+    font-size: 26px;
+}
+.get_item_header {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 19px;
+    font-weight: 400;
+}
+.help_text_color{
+    color: rgb(255 255 255/50%) !important;
+}
+.help_text_color a{
+    color: rgb(255 255 255/50%) !important;
+}
+
+/* ============================
+       get-help section
+============================= */
+
+.journey_title {
+    color: var(--textcolor);
+    font-size: 24px !important;
+}
+.journey_button{
+    display: flex;
+    justify-content: center;
+}
+.journey_btn{
+    color: #fff;
+    background-color: var(--primary);
+    padding: 7px 35px;
+    border-radius: 4px;
+    transition: all 0.3s linear;
+}
+.journey_btn:hover{
+    background-color: var(--textcolor);
+}
+
+.footer_section{
+    background-color: var(--sectionbg);
+}
+.footer_top {
+    display: none;
+    justify-content: center;
+    border-bottom: 1px solid rgb(78 108 137 / 30%);
+}
+.footer_nav{
+    padding: 30px 0px;
+}
+.footer_nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_nav ul li:not(:last-child){
+    margin-right: 20px;
+}
+.footer_nav ul li a{
+    color: white;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.footer_center {
+    margin-top: 20px;
+    padding: 20px 0px;
+    border-bottom: 1px solid rgb(78 108 137 / 30%);
+}
+.footer_center_wrapper {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+}
+.footer_item{}
+.footer_header {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.footer_item ul li:not(:last-child){
+    margin-bottom: 10px;
+}
+.footer_item ul li a {
+    color: rgb(255 255 255/50%);
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer_item ul li a:hover{
+    color: var(--primary);
+}
+.footer_bottom{
+    padding: 20px 0px;
+}
+.copy_footer p{
+    color: rgb(255 255 255/50%);
+    font-size: 14px;
+    font-weight: 400;
+}
+.social_icon ul{
+    display: flex;
+    align-items: center;
+}
+.social_icon ul li:not(:last-child){
+    margin-right: 20px;
+}
+.social_icon ul li i{
+    color: #fff;
+    font-size: 14px;
+    height: 10px;
+    width: 10px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+.social_icon ul li i:hover{
+    color: var(--primary);
+}
+.footer_bottom_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
